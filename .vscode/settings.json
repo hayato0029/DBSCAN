@@ -1,0 +1,28 @@
+{
+  // ルーラー
+  "editor.rulers": [
+    99
+  ],
+  "notebook.formatOnSave.enabled": true,
+  "notebook.formatOnCellExecution": true,
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll.ruff": true,
+    "notebook.source.organizeImports.ruff": true
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true
+  },
+  "ruff.path": [
+    "${workspaceFolder}/.venv/bin/ruff"
+  ],
+  "ruff.format.args": [
+    "--config=pyproject.toml"
+  ],
+  "files.autoSave": "afterDelay",
+}
