@@ -24,6 +24,9 @@ rye run python main.py
 
 ![](resources/dbscan.png)
 
+## Templetes
+- https://github.com/tubo213/research-template
+
 ## References
 
 - [Ester, M., Kriegel, H. P., Sander, J., & Xu, X. (1996, August). A density-based algorithm for discovering clusters in large spatial databases with noise. In kdd (Vol. 96, No. 34, pp. 226-231).](https://cdn.aaai.org/KDD/1996/KDD96-037.pdf?source=post_page---------------------------)
